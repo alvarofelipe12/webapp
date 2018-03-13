@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CursoAngular4Webapp</title>
+    <!-- Include firebase with app-core + database service -->
+  <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCl-4wgeNE4WpotKUMV_SvyPdOdrUSF9ks",
+    authDomain: "angular4-c04bc.firebaseapp.com",
+    databaseURL: "https://angular4-c04bc.firebaseio.com",
+    projectId: "angular4-c04bc",
+    storageBucket: "angular4-c04bc.appspot.com",
+    messagingSenderId: "240498453777"
+    };
+    firebase.initializeApp(config);
+  </script>
+  
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="assets/jquery.min.js"></script>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"></link>
+  <script rel="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- estilos -->
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

@@ -1,0 +1,123 @@
+[debug] [2018-02-24T19:04:51.746Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T19:04:51.746Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Takatalvi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T19:04:51.746Z] CLI Version:   3.17.4
+[debug] [2018-02-24T19:04:51.746Z] Platform:      win32
+[debug] [2018-02-24T19:04:51.746Z] Node Version:  v9.5.0
+[debug] [2018-02-24T19:04:51.746Z] Time:          Sat Feb 24 2018 14:04:51 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-24T19:04:51.746Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T19:04:51.824Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T19:04:51.824Z] > authorizing via signed-in user
+[debug] [2018-02-24T19:04:51.824Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-24T19:04:51.824Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/NRMivk5tNBiGAZaK-MnpHhd-mXrlhyQ0RmOY3cah8k4jj-PWAoLG3Ot4ej9vRAOJ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Feb 24 2018 14:04:51 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-24T19:04:52.150Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T19:04:52.165Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/angular4-c04bc  
+  
+ Sat Feb 24 2018 14:04:52 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-24T19:04:52.955Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T19:04:52.955Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/angular4-c04bc/tokens  
+  
+ Sat Feb 24 2018 14:04:52 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-24T19:04:53.515Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp64\www\curso-angular4-webapp'...
+[info] 
+[debug] [2018-02-24T19:04:53.519Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/angular4-c04bc  
+  
+ Sat Feb 24 2018 14:04:53 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-24T19:04:54.154Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T19:04:54.154Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/240498453777/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 14:04:54 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-24T19:04:54.807Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-25T15:05:13.983Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T15:05:13.986Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Takatalvi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T15:05:13.986Z] CLI Version:   3.17.4
+[debug] [2018-02-25T15:05:13.987Z] Platform:      win32
+[debug] [2018-02-25T15:05:13.987Z] Node Version:  v9.5.0
+[debug] [2018-02-25T15:05:13.988Z] Time:          Sun Feb 25 2018 10:05:13 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-25T15:05:13.988Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T15:05:14.042Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T15:05:14.057Z] > authorizing via signed-in user
+[debug] [2018-02-25T15:05:14.057Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-25T15:05:14.057Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/NRMivk5tNBiGAZaK-MnpHhd-mXrlhyQ0RmOY3cah8k4jj-PWAoLG3Ot4ej9vRAOJ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Feb 25 2018 10:05:14 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-25T15:05:14.432Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T15:05:14.432Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/angular4-c04bc  
+  
+ Sun Feb 25 2018 10:05:14 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-25T15:05:15.168Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T15:05:15.168Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/angular4-c04bc/tokens  
+  
+ Sun Feb 25 2018 10:05:15 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-25T15:05:15.744Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp64\www\curso-angular4-webapp'...
+[info] 
+[debug] [2018-02-25T15:05:15.744Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/angular4-c04bc  
+  
+ Sun Feb 25 2018 10:05:15 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-25T15:05:16.374Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T15:05:16.374Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/240498453777/clients/_:getWebAppConfig  
+  
+ Sun Feb 25 2018 10:05:16 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-25T15:05:16.968Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-26T12:29:53.146Z] ----------------------------------------------------------------------
+[debug] [2018-02-26T12:29:53.150Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Takatalvi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-26T12:29:53.150Z] CLI Version:   3.17.4
+[debug] [2018-02-26T12:29:53.150Z] Platform:      win32
+[debug] [2018-02-26T12:29:53.150Z] Node Version:  v9.5.0
+[debug] [2018-02-26T12:29:53.151Z] Time:          Mon Feb 26 2018 07:29:53 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-26T12:29:53.151Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-26T12:29:53.252Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-26T12:29:53.253Z] > authorizing via signed-in user
+[debug] [2018-02-26T12:29:53.255Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-26T12:29:53.256Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/NRMivk5tNBiGAZaK-MnpHhd-mXrlhyQ0RmOY3cah8k4jj-PWAoLG3Ot4ej9vRAOJ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Feb 26 2018 07:29:53 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-26T12:29:53.634Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T12:29:53.641Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/angular4-c04bc  
+  
+ Mon Feb 26 2018 07:29:53 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-26T12:29:54.363Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T12:29:54.364Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/angular4-c04bc/tokens  
+  
+ Mon Feb 26 2018 07:29:54 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-26T12:29:55.024Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp64\www\curso-angular4-webapp'...
+[info] 
+[debug] [2018-02-26T12:29:55.027Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/angular4-c04bc  
+  
+ Mon Feb 26 2018 07:29:55 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-26T12:29:55.676Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T12:29:55.677Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/240498453777/clients/_:getWebAppConfig  
+  
+ Mon Feb 26 2018 07:29:55 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-02-26T12:29:56.329Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
